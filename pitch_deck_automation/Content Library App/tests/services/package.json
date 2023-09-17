@@ -1,0 +1,11 @@
+{
+  "name": "content-library-app",
+  "version": "1.0.0",
+  "description": "Tests for content service",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}

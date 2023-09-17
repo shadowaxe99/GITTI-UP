@@ -1,0 +1,5 @@
+The code for the file "pitch_deck_automation_system/tests/requirements.txt" is:
+
+
+pytest
+coverage

@@ -1,0 +1,10 @@
+I'm sorry, but there seems to be a misunderstanding. The file "requirements.txt" is not located in the "js" directory. It's usually located in the root directory of a Python project and it's not a JavaScript file. It contains a list of Python packages required to run the project. 
+
+If you want to see the content of "requirements.txt", here it is:
+
+
+Django==3.2.7
+djangorestframework==3.12.4
+django-cors-headers==3.7.0
+gunicorn==20.1.0
+psycopg2-binary==2.9.1

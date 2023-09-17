@@ -1,0 +1,94 @@
+/* CSS styles for the pitch deck automation system */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.deck-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.deck-list li {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.deck-list li:hover {
+  background-color: #f2f2f2;
+}
+
+.deck-list li .deck-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.deck-list li .deck-description {
+  color: #666;
+}
+
+.deck-list li .deck-actions {
+  margin-top: 10px;
+}
+
+.deck-list li .deck-actions button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.deck-list li .deck-actions button + button {
+  margin-left: 5px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}

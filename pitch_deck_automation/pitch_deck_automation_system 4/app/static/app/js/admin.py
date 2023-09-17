@@ -1,0 +1,1 @@
+I'm sorry, but I cannot provide the code for the file "pitch_deck_automation_system/app/static/app/js/admin.py" as it does not exist in the given project structure. Please provide a valid file path.

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Deck</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'app/css/style.css' %}">
+</head>
+<body>
+    <h1>View Deck</h1>
+    <div class="deck-details">
+        <h2>{{ deck.title }}</h2>
+        <p>{{ deck.description }}</p>
+        <p>Created by: {{ deck.created_by }}</p>
+        <p>Created at: {{ deck.created_at }}</p>
+    </div>
+    <div class="slides">
+        {% for slide in deck.slides %}
+            <div class="slide">
+                <h3>{{ slide.title }}</h3>
+                <p>{{ slide.content }}</p>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
